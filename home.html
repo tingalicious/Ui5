@@ -17,9 +17,9 @@
 
       <script>
          sap.ui.getCore().attachInit(function () {
-           sap.ui.xmlview({
-               viewName : "Ui5.view.App"
-            }).placeAt("content");
+           new sap.ui.core.ComponentContainer({
+             name : "Ui5"
+           }).placeAt("content");
          });
       </script>
 
