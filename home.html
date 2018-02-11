@@ -11,14 +11,14 @@
          data-sap-ui-compatVersion="edge"
          data-sap-ui-preload="async"
          data-sap-ui-resourceroots='{
-            "sap.ui.demo.walkthrough": "./"
+            "Ui5": "./"
          }'>
        </script>
 
       <script>
-         sap.ui.getCore().attachINit(function () {
+         sap.ui.getCore().attachInit(function () {
            sap.ui.xmlview({
-               viewName : "sap.ui.demo.walkthrough.view.App"
+               viewName : "Ui5.view.App"
             }).placeAt("content");
          });
       </script>
