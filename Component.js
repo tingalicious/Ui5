@@ -6,12 +6,7 @@ sap.ui.define([
    "use strict";
    return UIComponent.extend("Ui5.Component", {
             metadata : {
-		rootView: {
-			"viewName": "Ui5.view.App",
-			"type": "XML",
-			"async": true,
-			"id": "app"
-		}
+		            manifest: "json"
 	},
       init : function () {
          // call the init function of the parent
