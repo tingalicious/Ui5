@@ -8,21 +8,17 @@
        <Page title="{i18n>homePageTitle}">
          <content>
            <Panel
-             headerText="{i18n>helloPanelTitle}"
-             class="sapUiResponsiveMargin"
-             width="auto">
+             headerText="{i18n>helloPanelTitle}">
              <content>
                <Text text="Hello World"/>
                <Button
                   text="{i18n>showHellowButtonText}"
-                  press="onShowHello"/
-                  class="sapUiSmallMarginEnd">
+                  press="onShowHello"/>
                <Input
                   value="{/recipient/name}"
+                  description="Hello {/recipient/name}"
                   valueLiveUpdate="true"
                   width="60%"/>
-              <Text text="Hello {/recipient/name}"
-                class="sapUiSmallMargin"/>
                 </content>
               </Panel>
             </content>
