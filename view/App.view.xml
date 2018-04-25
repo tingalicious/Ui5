@@ -12,6 +12,7 @@
              class="sapUIResponsiveMargin"
              width="auto">
              <content>
+               <Text text="Hello World"/>
                <Button
                   text="{i18n>showHellowButtonText}"
                   press="onShowHello"/
@@ -21,9 +22,6 @@
                   description="Hello {/recipient/name}"
                   valueLiveUpdate="true"
                   width="60%"/>
-                <Text
-                  text="Hello {/recipient/name}"
-                  class="sapUiSmallMargin"/>
                 </content>
               </Panel>
             </content>
