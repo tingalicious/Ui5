@@ -17,8 +17,12 @@
 
       <script>
          sap.ui.getCore().attachInit(function () {
-           new sap.ui.core.ComponentContainer({
-             name : "Ui5"
+           new sap.m.Shell({
+             app : new sap.ui.core.ComponentContainer({
+               name : "Ui5",
+               settings : {
+                 id : "walkthrough"
+               }
            }).placeAt("content");
          });
       </script>
