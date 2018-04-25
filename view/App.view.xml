@@ -9,7 +9,7 @@
          <content>
            <Panel
              headerText="{i18n>helloPanelTitle}"
-             class="sapUIResponsiveMargin"
+             class="sapUiResponsiveMargin"
              width="auto">
              <content>
                <Text text="Hello World"/>
@@ -19,9 +19,10 @@
                   class="sapUiSmallMarginEnd">
                <Input
                   value="{/recipient/name}"
-                  description="Hello {/recipient/name}"
                   valueLiveUpdate="true"
                   width="60%"/>
+              <Text text="Hello {/recipient/name}"
+                class="sapUiSmallMargin"/>
                 </content>
               </Panel>
             </content>
