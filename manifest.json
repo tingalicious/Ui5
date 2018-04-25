@@ -33,9 +33,9 @@
 	},
 	"models": {
 	  "i18n": {
-		"type": "sap.ui.model.resource.ResourceModel",
+		"type": "Ui5.resource.ResourceModel",
 		"settings": {
-		  "bundleName": "sap.ui.demo.walkthrough.i18n.i18n"
+		  "bundleName": "Ui5.i18n.i18n"
 		}
 	  }
 	}
